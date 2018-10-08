@@ -14,7 +14,9 @@
   "dependencies": {
     "angular": "^1.7.5",
     "angular-material": "^1.1.10",
-    "angular-route": "^1.7.5"
+    "angular-route": "^1.7.5",
+    "angular-animate": "^1.7.5",
+    "angular-aria": "^1.7.5"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",

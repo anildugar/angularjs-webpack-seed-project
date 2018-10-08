@@ -1,5 +1,5 @@
 import angular from 'angular';
-
-angular.module('App',[]).controller('AppController', function() {
-    this.message = 'Hello Angular';
+var app = angular.module('App',['ngMaterial', 'ngRoute']);
+app.controller('AppController', function() {
+    this.message = 'Hello. My First AngularJS App';
 });
