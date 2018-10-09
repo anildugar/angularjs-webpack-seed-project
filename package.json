@@ -1,7 +1,7 @@
 {
   "name": "angular-seed-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "An AngularJS Seed Project with Webpack as Module Bundler. Can be used to dockerize the app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "package": "webpack --config webpack.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anil Dugar",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.7.5",
