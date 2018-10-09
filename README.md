@@ -6,4 +6,6 @@ Generates separate Vendor and App files.
 
 Injects Vendor and App js files dynamically into index.html file of the distribution.
 
-Has support to create docker images.
+Has support to create docker images, uses nginx linux container to host the app.
+
+Works in production as well, as the output files are minified by webpack.
