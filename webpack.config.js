@@ -17,6 +17,16 @@ module.exports = {
         contentBase: path.join(__dirname,"/dist/"),
         port:9000
     },
+    resolve: {
+		extensions: ['.js']
+    },
+    module: {
+        rules: 
+        [
+            { test:/\.css$/, use:['style-loader','css-loader'] },
+            { test: /.html$/, use: ["raw-loader"]},
+        ]
+    },
     mode: 'production',
     plugins: [
         new HtmlWebpackPlugin({
