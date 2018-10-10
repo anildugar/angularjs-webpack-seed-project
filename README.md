@@ -8,4 +8,6 @@ Injects Vendor and App js files dynamically into index.html file of the distribu
 
 Has support to create docker images, uses nginx linux container to host the app.
 
-Works in production as well, as the output files are minified by webpack.
+Works in production as well, as the output files are minified by webpack
+
+Added support for HTML and CSS Style Loaders to bundle html/css assets
